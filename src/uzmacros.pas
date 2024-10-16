@@ -6,7 +6,7 @@ interface
 
 uses
   sysutils,
-  MacroIntf,TransferMacros,MacroDefIntf;//From lazarus ide
+  {MacroIntf,}TransferMacros,MacroDefIntf;//From lazarus ide
 
 type
   TMacroProcessFunc=function (var s: string): boolean of object;
